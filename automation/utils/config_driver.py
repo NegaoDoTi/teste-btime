@@ -16,6 +16,7 @@ class Driver():
         """Metodo que inicia um novo Chrome driver
 
         Returns:
+            
             ChromeWebDriver | dict: {'error' : bool, 'type': str, 'exception' : str}
         """
         
@@ -31,4 +32,8 @@ class Driver():
             return self.__driver
             
         except Exception:
-            return {"error" : True, "type" : "Erro inesperado ao iniciar o nevegador Chrome",  "exception" : f"{format_exc()}"}
+            return {
+                "error" : True, 
+                "type" : "Erro inesperado ao iniciar o nevegador Chrome",  
+                "exception" : f"{format_exc()}"
+                }
