@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 selenium = "==4.34.2"
 webdriver-manager = "==4.0.2"
+python-dotenv = "==1.1.1"
 
 [dev-packages]
 

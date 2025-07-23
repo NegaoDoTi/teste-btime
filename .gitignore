@@ -207,3 +207,5 @@ marimo/_lsp/
 __marimo__/
 
 .vscode/
+
+api_key.txt
