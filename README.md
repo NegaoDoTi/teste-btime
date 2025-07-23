@@ -50,7 +50,7 @@ Este é um teste para vaga de RPA da Btime
                 .   pipenv install
 
     . Você criar um conta no OpenWeatherMap e criar um chave de API
-    . Apos criar sua chave de API você deve registrar ela no arquivo .env conforme o indicado   no arquivo
+    . Apos criar sua chave de API você deve registrar ela no arquivo .env conforme o indicado no arquivo
 
 # Como executar webscraping:
 
